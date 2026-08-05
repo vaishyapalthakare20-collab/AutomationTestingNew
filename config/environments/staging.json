@@ -1,0 +1,14 @@
+{
+  "name": "staging",
+  "baseURL": "https://www.saucedemo.com",
+  "credentials": {
+    "password": "secret_sauce",
+    "users": {
+      "standard": "standard_user",
+      "lockedOut": "locked_out_user",
+      "problem": "problem_user",
+      "performance": "performance_glitch_user",
+      "error": "error_user"
+    }
+  }
+}

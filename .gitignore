@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Environment variables (keep .env.example, ignore real .env)
+.env
+
+# Playwright / test artifacts
+test-results/
+reports/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Allure
+allure-results/
+allure-report/
+.allure/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
