@@ -78,4 +78,6 @@ class LoginPage extends BasePage {
   }
 }
 
+console.log("LoginPage class defined successfully.");
 export default LoginPage;
+
