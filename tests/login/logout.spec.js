@@ -18,5 +18,7 @@ test.describe('Login - Logout @regression', () => {
     await inventoryPage.logout();
     await expect(loginPage.loginButton).toBeVisible();
     expect(inventoryPage.getUrl()).toContain(ROUTES.LOGIN);
+
+    console.log('User logged out successfully and returned to the login page.');
   });
 });
