@@ -66,5 +66,7 @@ test.describe('Cart Module @regression', () => {
     await inventoryPage.goToCart();
     await cartPage.proceedToCheckout();
     await expect(checkoutPage.pageTitle).toHaveText(TITLES.CHECKOUT_INFO);
+ 
+ console.log('Checkout page title verified Vaishyapal successfully.');
   });
 });
