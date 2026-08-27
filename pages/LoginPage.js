@@ -79,5 +79,7 @@ class LoginPage extends BasePage {
 }
 
 console.log("LoginPage class defined successfully.");
+console.log("LoginPage module loaded successfully.");
 export default LoginPage;
+
 
